@@ -1,0 +1,80 @@
+﻿<VSTemplateManifest Version="1.0" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>CSharp\Windows Universal\CsConsoleU</RelativePathOnDisk>
+    <TemplateFileName>CsConsoleUniversal.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Console App C# (Universal Windows)</Name>
+        <Description>Creates a C# Console App (Universal Windows).</Description>
+        <TemplateID>Microsoft.UAP.CsConsoleUniversal</TemplateID>
+        <TemplateGroupID>WinRT-Managed</TemplateGroupID>
+        <ProjectType>CSharp</ProjectType>
+        <SortOrder>1</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>App</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LocationField>Enabled</LocationField>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <Icon>__TemplateIcon.ico</Icon>
+        <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+        <TargetPlatformName>Windows</TargetPlatformName>
+        <RequiredPlatformVersion>6.1.0</RequiredPlatformVersion>
+        <CreateInPlace>true</CreateInPlace>
+        <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
+        <PreviewImage>CsConsoleUniversal.png</PreviewImage>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>VC\Windows Universal\CppCxConsoleU</RelativePathOnDisk>
+    <TemplateFileName>CppCxConsoleUniversal.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Console App C++/CX (Universal Windows)</Name>
+        <Description>Creates a C++/CX Console App (Universal Windows) (experimental).</Description>
+        <TemplateID>Microsoft.UAP.CppCxConsoleUniversal</TemplateID>
+        <Icon Package="{2581426E-BF4F-4A49-A42A-20EF9D51EF49}" ID="4002" />
+        <TemplateGroupID>WinRT-Native</TemplateGroupID>
+        <ProjectType>VC</ProjectType>
+        <SortOrder>1</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>App</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LocationField>Enabled</LocationField>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+        <TargetPlatformName>Windows</TargetPlatformName>
+        <RequiredPlatformVersion>6.1.0</RequiredPlatformVersion>
+        <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
+        <PreviewImage>CppCxConsoleUniversal.png</PreviewImage>
+        <AppIdFilter>blend</AppIdFilter>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>VC\Windows Universal\CppWrConsoleU</RelativePathOnDisk>
+    <TemplateFileName>CppWinRtConsoleUniversal.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Console App C++/WinRT (Universal Windows)</Name>
+        <Description>Creates a C++/WinRT Console App (Universal Windows) (experimental).</Description>
+        <TemplateID>Microsoft.UAP.CppWinRtConsoleUniversal</TemplateID>
+        <Icon>cppwinrt.ico</Icon>
+        <TemplateGroupID>WinRT-Native</TemplateGroupID>
+        <ProjectType>VC</ProjectType>
+        <SortOrder>1</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>App</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LocationField>Enabled</LocationField>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+        <TargetPlatformName>Windows</TargetPlatformName>
+        <RequiredPlatformVersion>6.1.0</RequiredPlatformVersion>
+        <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
+        <PreviewImage>CppWinRtConsoleUniversal.png</PreviewImage>
+        <AppIdFilter>blend</AppIdFilter>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+</VSTemplateManifest>
